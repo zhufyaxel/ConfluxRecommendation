@@ -68,7 +68,7 @@ P5.js 还是太学生气了一些。简单的搜索之后发现Anime.js可能会
 但这玩意怎么写我看不懂，可能看你们的需求
 
 
-## [D3.js](https)
+## [D3.js](https://d3js.org/)
 
 最为主流的数据可视化工具。逻辑是Overview里面的2，本身的实现逻辑基本上是：1. 读取数据；2. 基于数据生成SVG对象； 3. 事件编程。因此这玩意同时有极大的兼容性。
 
@@ -92,7 +92,7 @@ P5.js 还是太学生气了一些。简单的搜索之后发现Anime.js可能会
 
 ![gif](img/visjs.gif)
 
-## [Three.js](https://threejs.org/) & [Babylon.js]()
+## [Three.js](https://threejs.org/) & [Babylon.js](https://www.babylonjs.com/)
 
 如果你们的工程师会写Scene/Objects/Camera based 的set up的话，用WebGL的封装库会是个不错的选择。Three.js 和 Babylon.js算是比较主流的。前者比较老，有大量的版本兼容问题，但支持文档给力。后者新，版本兼容非常好，但是支持文档和案例比较少。
 
@@ -108,6 +108,10 @@ P5.js 还是太学生气了一些。简单的搜索之后发现Anime.js可能会
 
 ## 非JS的页端工具
 
-Python如果写得好的话可以尝试使用[bokeh](bokeh.pydata.org)
+Python如果写得好的话可以尝试使用[bokeh](https://bokeh.pydata.org)
 
 游戏引擎会用的话，上Unity/Unreal都是不错的选择（我提供的那个demo是用Unity写的）
+
+## 案例搜索建议
+
+由于Conflux是一个DAG，DAG本身其实不是啥太新的结构，直接谷歌搜索Directed Graph Visualization有蛮多实际案例的
